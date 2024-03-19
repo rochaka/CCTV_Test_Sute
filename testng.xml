@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Staff/Desktop/CCTV_automation/src/test/java/Test_Suite">
+        <classes>
+            <class name="Test_Suite.First_testing.Customers">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Logingdata"/>
+                    <include name="Shift"/>
+                    <include name="FILL"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.First_testing.user">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="FILL"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Secound_test.warrenty">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="create_warrenty"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Secound_test.service">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="create_warrenty"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Secound_test.add_conditions_Detaile">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="fill"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Secound_test.add_conditions_Disclaimer">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="fill"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Devices.Brands">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="create_Brand"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Devices.Type">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="create_Brand"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Devices.Feature_Of_Devices">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="create_Brand"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Devices.Create_Device">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="fill"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Devices.Create_Device_recording">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="fill"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Fourth_test.stockes_Credit">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="FILL"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Fourth_test.stockes_debit">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="FILL"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Transactions.Transactions">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="FILL"/>
+                    <include name="addDevices"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Transactions.Serial_Numbers">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="add"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Transactions.waiting">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="FILL"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Transactions.Approvel">
+                <methods>
+                    <include name="LOad_new_link"/>
+                    <include name="Find"/>
+                    <include name="inquiries"/>
+                    <include name="Agreement"/>
+                </methods>
+            </class>
+            <class name="Test_Suite.Transactions.close">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="Shift"/>
+                    <include name="FILL"/>
+                    <include name="create"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
